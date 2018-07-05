@@ -1,0 +1,42 @@
+{
+  "name": "mix-30",
+  "version": "0.0.0",
+  "description": "A mobile app with which a film-goer can explore and navigate the 30th Annual MIX Film Festival’s schedule, installations, performers, and purchase tickets.",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "jest",
+    "lint": "eslint .",
+    "prettier": "eslint . --fix"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "date-fns": "^2.0.0-alpha.1",
+    "expo": "^25.0.0",
+    "fbemitter": "^2.1.1",
+    "jwt-decode": "^2.2.0",
+    "lodash": "^4.17.4",
+    "react": "^16.2.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-25.0.0.tar.gz",
+    "react-native-app-link": "^0.4.0",
+    "react-native-fade-in-image": "1.0.3",
+    "react-native-platform-touchable": "1.1.1",
+    "react-native-tab-view": "^0.0.66",
+    "react-navigation": "^1.0.0-beta.27",
+    "react-redux": "^5.0.5",
+    "redux": "^3.7.1",
+    "redux-persist": "^4.8.2",
+    "sentry-expo": "^1.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.1.1",
+    "eslint-config-react-native-prettier": "1.0.0",
+    "react-native-scripts": "^1.1.1",
+    "jest-expo": "^25.1.0"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Mix 30",
+    "description": "An app for the 30th Mix Queer Film Festival",
+    "slug": "mix-30",
+    "ios": {
+      "bundleIdentifier": "com.mix30.festival",
+      "supportsTablet": true,
+      "icon": "./assets/icon-android.png",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "MIX App would like to use your current location to display it on the app, also for directions and estimation of your travel times. It is secure and private.",
+        "NSLocationAlwaysUsageDescription": "MIX App would like to use your current location to display it on the app, also for directions and estimation of your travel times. It is secure and private.",
+        "NSLocationUsageDescription": "MIX App would like to use your current location to display it on the app, also for directions and estimation of your travel times. It is secure and private."
+      },
+      "config": {
+        "googleMapsApiKey": "AIzaSyBocVjSlJMhzG7OMLETDb06eGiB4xk2jfg"
+        },
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "cover"
+      }
+    },
+    "android": {
+      "package": "com.mix30.festival",
+      "versionCode": 7,
+      "icon":"./assets/icon-android.png",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBocVjSlJMhzG7OMLETDb06eGiB4xk2jfg"
+        }
+      }
+    },
+    "privacy": "public",
+    "sdkVersion": "25.0.0",
+    "version": "7.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "icon": "./assets/icon.png",
+    "notification": {
+      "icon": "./assets/icons/notification-icon.png",
+      "color": "#000000"
+    },
+    "packagerOpts": {
+      "assetExts": ["ttf"]
+    },
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover"
+    }
+  }
+}

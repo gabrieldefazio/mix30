@@ -1,0 +1,5 @@
+node_modules/**/*
+.expo/**/*
+app.json.brent
+.package-lock.json
+
